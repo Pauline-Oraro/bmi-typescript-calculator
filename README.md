@@ -1,7 +1,6 @@
 # bmi-typescript-calculator
 A BMI calculator created using typescript
 
-![BMI Calculator](./BMI.png)
 
 Welcome to the BMI Calculator TypeScript Project! This project implements a simple BMI calculator with a user-friendly interface that allows users to input their weight and height and calculates their Body Mass Index.
 
@@ -27,7 +26,6 @@ To get started with the BMI Calculator, follow these steps:
 
 1. Clone or download this repository to your local machine.
 2. Ensure you have Node.js and npm installed.
-3. Install project dependencies by running: npm install
 
 ## Usage
 1. Open the `bmi.html` file in your web browser.
