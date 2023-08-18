@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bmi.css">
+    <title>BMI CALCULATOR-TYPESCRIPT</title>
+</head>
+<body>
+    <div class="container">
+        <h1>BMI CALCULATOR</h1>
+
+        <!-- displays the calculated bmi value and its category-->
+        <div class="display">
+            <p id="result">20.0</p>
+            <p id="category">Normal Weight</p>
+        </div>
+
+        <!--a range slider for selecting the weight-->
+        <div class="row">
+            <input type="range" min="20" max="200" value="20" id="weight" oninput="calculate()">
+            <span id="weight-val">20kg</span>
+        </div>
+
+        <!--a range slider for selecting the height-->
+        <div class="row">
+            <input type="range" min="100" max="250" value="100" id="height" oninput="calculate()">
+            <span id="height-val">100cm</span>
+        </div>
+    </div>
+    <script src="/build/JS/bmi.js"></script>
+</body>
+</html>
